@@ -1,0 +1,20 @@
+node_modules/
+
+# Сборка и артефакты
+dist/
+build/
+out/
+
+# Переменные окружения и секреты
+.env
+.env.local
+.env.*.local
+
+# Настройки редакторов
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
