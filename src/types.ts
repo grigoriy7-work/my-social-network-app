@@ -10,3 +10,8 @@ export type CreateUserDTO = {
 export type User = CreateUserDTO & {
   id: string;
 };
+
+export type LoginDTO = {
+  id: string;
+  password: string;
+};

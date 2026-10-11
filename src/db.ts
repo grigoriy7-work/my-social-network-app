@@ -21,4 +21,10 @@ export async function initDb() {
       password VARCHAR(100) NOT NULL
     );
   `);
+  await pool.query(`
+    CREATE TABLE IF NOT EXISTS sessions (
+      id  UUID PRIMARY KEY,
+      user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE
+    );
+  `);
 }
