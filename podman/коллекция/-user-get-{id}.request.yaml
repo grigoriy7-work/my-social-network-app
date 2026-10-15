@@ -1,5 +1,0 @@
-$kind: http-request
-name: /user/get/{id}
-url: ""
-method: GET
-order: 3000
