@@ -1,0 +1,15 @@
+$kind: http-request
+name: /login
+description: ""
+url: "{{base_url}}/login1"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"id\": \"825ae359-0d43-4ee0-856b-cac2c8f40ef9\",\r
+
+    \  \"password\": \"Секретная строка1\"\r
+
+    }"
+order: 1000
